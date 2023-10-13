@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+jspm_packages/
+typings/
+
+# Build results
+dist/
+out/
+
+# Debug
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
