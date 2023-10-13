@@ -1,1 +1,131 @@
-A full-stack web application for listing target prices and letters. This project uses Node.js and Express for the backend and React with TypeScript, Material UI, and Redux Toolkit for the frontend. Static data is used in the backend for demonstration purposes.
+
+# Target Price Listing
+
+A full-stack web application for listing target prices and letters for popular stocks.
+
+**Disclaimer:** Please note that the target prices and letters provided here are for demonstration purposes only and should not be considered as investment advice. Always conduct your own research before making any investment decisions.
+
+## About the Data
+
+Here is a listing of target prices and letters for some popular stocks, as of 2023-10-11 PST:
+
+```
+| Stock | Target Price | Letter |
+|---|---|---|
+| XYZ | $180 | Buy |
+| ABC | $250 | Buy |
+| DEF | $120 | Buy |
+| UVW | $110 | Buy |
+| RST | $320 | Hold |
+| GHI | $90 | Sell |
+| JKL | $190 | Hold |
+| MNO | $250 | Buy |
+| PQR | $500,000 | Buy |
+| STU | $350 | Buy |
+```
+
+### Target Prices
+
+Target prices are estimates of the future price of a stock. They are typically set by analysts based on their assessment of the company's fundamentals, such as its earnings growth potential, competitive landscape, and financial health.
+
+### Letter Grades
+
+Letter grades are a way for analysts to communicate their overall opinion on a stock. They are typically assigned on a scale of A to F, with A being the most bullish and F being the most bearish.
+
+## Interpretation
+
+In the above table, you can observe the following:
+
+- The most popular stocks are XYZ, ABC, DEF, and UVW.
+- The most bullish stock is PQR, with a target price of $500,000.
+- The most bearish stock is GHI, with a letter grade of Sell.
+
+## Data in JSON Format
+
+```json
+{
+  "stocks": [
+    {
+      "stock": "XYZ",
+      "targetPrice": "$180",
+      "letter": "Buy"
+    },
+    {
+      "stock": "ABC",
+      "targetPrice": "$250",
+      "letter": "Buy"
+    },
+    {
+      "stock": "DEF",
+      "targetPrice": "$120",
+      "letter": "Buy"
+    },
+    {
+      "stock": "UVW",
+      "targetPrice": "$110",
+      "letter": "Buy"
+    },
+    {
+      "stock": "RST",
+      "targetPrice": "$320",
+      "letter": "Hold"
+    },
+    {
+      "stock": "GHI",
+      "targetPrice": "$90",
+      "letter": "Sell"
+    },
+    {
+      "stock": "JKL",
+      "targetPrice": "$190",
+      "letter": "Hold"
+    },
+    {
+      "stock": "MNO",
+      "targetPrice": "$250",
+      "letter": "Buy"
+    },
+    {
+      "stock": "PQR",
+      "targetPrice": "$500,000",
+      "letter": "Buy"
+    },
+    {
+      "stock": "STU",
+      "targetPrice": "$350",
+      "letter": "Buy"
+    }
+  ]
+}
+```
+
+## Getting Started
+
+...
+
+## Project Structure
+
+...
+
+## Backend
+
+...
+
+## Frontend
+
+...
+
+## Usage
+
+...
+
+## Contributing
+
+...
+
+## License
+
+...
+
+
+
