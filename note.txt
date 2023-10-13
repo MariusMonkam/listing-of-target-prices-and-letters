@@ -1,0 +1,1 @@
+A full-stack web application for listing target prices and letters. This project uses Node.js and Express for the backend and React with TypeScript, Material UI, and Redux Toolkit for the frontend. Static data is used in the backend for demonstration purposes.
