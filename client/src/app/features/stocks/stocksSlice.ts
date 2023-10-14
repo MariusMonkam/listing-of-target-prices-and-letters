@@ -1,5 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { Stock } from "../../../types/client-interfaces";
+import { apiURL } from "../../../services/api";
 
 interface StocksState {
   data: Stock[];
@@ -16,7 +17,7 @@ const initialState: StocksState = {
 export const fetchTargetPrices = createAsyncThunk(
   "stocks/fetchTargetPrices",
   async () => {
-    const response = await fetch("http://localhost:5000/api/target-prices");
+    const response = await fetch(apiURL);
     if (!response.ok) {
       throw new Error("Failed to fetch target prices");
     }
