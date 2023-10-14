@@ -25,3 +25,15 @@ body {
   margin: 20px 0; /* Add margin to control spacing */
   padding: 0 20px; /* Adjust the padding as needed */
 }
+/* Add your CSS classes for different status backgrounds */
+.buy-background {
+  background-color: #c8e6c9; /* Green background for "Buy" status */
+}
+
+.hold-background {
+  background-color: #fff9c4; /* Yellow background for "Hold" status */
+}
+
+.sell-background {
+  background-color: #ffccbc; /* Red background for "Sell" status */
+}
