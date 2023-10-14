@@ -89,6 +89,20 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and submit a pull request.
 
+## To-Do List and Upcoming Features
+
+This project has successfully been deployed to Heroku. Here are the next steps and upcoming features that we plan to implement:
+
+1. **Editing Row Items**: We plan to enable users to edit the content of each row item (e.g., stock, target price, and letter status) directly within the table. This will provide an easy way for users to update the information as needed.
+
+2. **Dropdown for Letter Status**: The "Letter" status in each row will be replaced with a dropdown menu, allowing users to select the appropriate letter status from the available options (e.g., Buy, Hold, Sell).
+
+3. **Edit Dialog Form**: When a user clicks on a row or a button next to the letter status, an edit dialog form will open. This dialog form will contain fields for updating the stock, target price, and letter status. Users can make their changes and save them.
+
+4. **Edit API Endpoint**: We'll create a new API endpoint for editing row items. When users make changes via the dialog form, the data will be sent to this endpoint to update the database.
+
+Stay tuned for these exciting updates as we continue to enhance and refine this application!
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
