@@ -1,11 +1,14 @@
 const express = require("express");
 const app = express();
+const cors = require("cors"); // Import the cors middleware
 
-//import our routes
+// Import your routes
 const targetPriceRoutes = require("./routes/targetPricesRoutes");
 
-// Use the routes
+// Use the cors middleware to enable CORS
+app.use(cors());
 
+// Use the routes
 app.use("/api", targetPriceRoutes);
 
 const port = process.env.PORT || 5000; // You can change the port as needed
