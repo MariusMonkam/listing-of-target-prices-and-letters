@@ -1,0 +1,27 @@
+/* Import external CSS or stylesheets at the top of your file */
+
+/* After the @import rules, you can define your styles */
+body {
+  background-color: rgb(219, 231, 235);
+  font-family: Arial, sans-serif;
+}
+
+/* Rest of your CSS styles */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Title {
+  font-size: 24px;
+  margin: 0 0 15px;
+}
+.Subtitle {
+  font-size: 16px; /* Adjust the font size as needed */
+  margin: 20px 0; /* Add margin to control spacing */
+  padding: 0 20px; /* Adjust the padding as needed */
+}
